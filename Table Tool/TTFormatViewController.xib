@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13122.19" systemVersion="16F73" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13122.19"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -19,17 +19,17 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <view id="uWa-ZF-fcn">
-            <rect key="frame" x="0.0" y="0.0" width="784" height="34"/>
+            <rect key="frame" x="0.0" y="0.0" width="794" height="34"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <popUpButton verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="m7v-7K-NRZ">
-                    <rect key="frame" x="74" y="5" width="203" height="22"/>
-                    <popUpButtonCell key="cell" type="push" title="No String Encodings Configured" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" tag="4" imageScaling="proportionallyDown" inset="2" selectedItem="azY-g1-sDt" id="vmc-PX-Znv">
+                    <rect key="frame" x="74" y="5" width="205" height="22"/>
+                    <popUpButtonCell key="cell" type="push" title="No String Encodings Configured" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="4" imageScaling="proportionallyDown" inset="2" selectedItem="azY-g1-sDt" id="vmc-PX-Znv">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <menu key="menu" id="gXz-Dr-gC4">
                             <items>
-                                <menuItem title="No String Encodings Configured" tag="4" id="azY-g1-sDt"/>
+                                <menuItem title="No String Encodings Configured" state="on" tag="4" id="azY-g1-sDt"/>
                             </items>
                         </menu>
                     </popUpButtonCell>
@@ -41,23 +41,23 @@
                 <textField verticalHuggingPriority="750" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Tc8-cG-co1">
                     <rect key="frame" x="18" y="10" width="53" height="14"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Encoding" id="2qh-Ft-dH3">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="R0k-y0-B2K">
-                    <rect key="frame" x="280" y="10" width="56" height="14"/>
+                    <rect key="frame" x="282" y="10" width="56" height="14"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Separator" id="g3k-Et-CPk">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Iq-Qh-egS">
-                    <rect key="frame" x="340" y="6" width="96" height="20"/>
+                    <rect key="frame" x="342" y="6" width="108" height="21"/>
                     <segmentedCell key="cell" controlSize="small" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="C2o-jP-EF2">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <segments>
                             <segment label="," selected="YES"/>
                             <segment label=";" tag="1"/>
@@ -71,25 +71,25 @@
                     </connections>
                 </segmentedControl>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="8QF-zx-ee2">
-                    <rect key="frame" x="541" y="10" width="36" height="14"/>
+                    <rect key="frame" x="562" y="10" width="36" height="14"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Quote" id="A2l-Uw-arU">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SRM-hM-oK9">
-                    <rect key="frame" x="440" y="10" width="46" height="14"/>
+                    <rect key="frame" x="454" y="10" width="47" height="14"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Decimal" id="rhn-U5-DWG">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
                 <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ex4-c5-GWU">
-                    <rect key="frame" x="490" y="6" width="47" height="20"/>
+                    <rect key="frame" x="505" y="6" width="53" height="21"/>
                     <segmentedCell key="cell" controlSize="small" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="d4a-n0-Zii">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <segments>
                             <segment label="." selected="YES"/>
                             <segment label="," tag="1"/>
@@ -101,9 +101,9 @@
                     </connections>
                 </segmentedControl>
                 <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yrD-55-LxA">
-                    <rect key="frame" x="581" y="6" width="101" height="20"/>
+                    <rect key="frame" x="602" y="6" width="110" height="21"/>
                     <segmentedCell key="cell" controlSize="small" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="XAD-11-Jjs">
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                         <segments>
                             <segment label="&quot;&quot;" selected="YES"/>
                             <segment label="\&quot;" tag="1"/>
@@ -116,10 +116,10 @@
                     </connections>
                 </segmentedControl>
                 <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="n5T-kl-CuM">
-                    <rect key="frame" x="685" y="8" width="61" height="18"/>
+                    <rect key="frame" x="715" y="8" width="61" height="18"/>
                     <buttonCell key="cell" type="check" title="Header" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" inset="2" id="cgT-F0-Q53">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="message" size="11"/>
                     </buttonCell>
                     <connections>
                         <action selector="updateConfiguration:" target="-2" id="wGZ-vP-7LF"/>
